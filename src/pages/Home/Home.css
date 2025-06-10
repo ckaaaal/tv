@@ -1,0 +1,101 @@
+.hero-section {
+  background: linear-gradient(rgba(30, 61, 89, 0.8), rgba(30, 61, 89, 0.8)),
+    url('https://images.unsplash.com/photo-1596497605402-832459f9bf98') center/cover;
+  color: var(--white);
+  padding: 120px 0 160px;
+  margin-bottom: -80px;
+  position: relative;
+}
+
+.hero-title {
+  font-size: 3.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 24px !important;
+  text-align: center;
+}
+
+.hero-subtitle {
+  text-align: center;
+  margin-bottom: 48px !important;
+  opacity: 0.9;
+}
+
+.search-card {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+}
+
+.search-button {
+  margin-top: 24px !important;
+}
+
+.featured-section {
+  padding: 120px 0 80px;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 48px !important;
+  font-weight: 600 !important;
+}
+
+.tour-card {
+  height: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tour-card:hover {
+  transform: translateY(-8px);
+}
+
+.tour-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.advantages-section {
+  padding: 80px 0;
+  background-color: var(--white);
+  margin: 80px 0;
+  border-radius: var(--border-radius);
+}
+
+.advantage-item {
+  text-align: center;
+  padding: 24px;
+}
+
+.advantage-number {
+  color: var(--secondary-color);
+  font-weight: 700 !important;
+  margin-bottom: 16px !important;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 80px 0 120px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+
+  .search-card {
+    padding: 16px;
+  }
+
+  .featured-section {
+    padding: 80px 0 40px;
+  }
+
+  .advantages-section {
+    padding: 40px 0;
+    margin: 40px 0;
+  }
+} 

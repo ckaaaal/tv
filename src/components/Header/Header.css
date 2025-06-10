@@ -1,0 +1,60 @@
+.header {
+  background-color: var(--primary-color);
+}
+
+.logo {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 32px;
+  font-weight: 700;
+}
+
+.nav-links {
+  flex-grow: 1;
+  gap: 16px;
+}
+
+.auth-buttons {
+  margin-left: auto;
+}
+
+.menu-button {
+  margin-right: 16px;
+  display: none;
+}
+
+.profile-button {
+  padding: 8px;
+}
+
+.mobile-drawer {
+  width: 240px;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+}
+
+.MuiDrawer-paper {
+  width: 250px;
+  background-color: #1E3D59 !important;
+  color: white !important;
+}
+
+.MuiListItem-root {
+  color: white !important;
+}
+
+.MuiListItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+} 

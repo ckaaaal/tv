@@ -1,0 +1,82 @@
+.booking-container {
+  padding: 24px;
+  margin-bottom: 48px;
+}
+
+.page-title {
+  color: var(--primary-color);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.booking-stepper {
+  margin-bottom: 32px;
+}
+
+.step-content {
+  margin: 32px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tourist-card {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tourist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.add-tourist-button {
+  margin-top: 16px;
+}
+
+.booking-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  bottom: 0;
+}
+
+.total-price {
+  margin: 16px 0;
+}
+
+.booking-info {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .booking-container {
+    padding: 16px;
+  }
+
+  .booking-stepper {
+    margin-bottom: 24px;
+  }
+
+  .step-content {
+    margin: 24px 0;
+  }
+
+  .booking-actions {
+    padding: 12px;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .back-button {
+    order: 2;
+  }
+} 
